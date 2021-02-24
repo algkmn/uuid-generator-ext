@@ -1,0 +1,22 @@
+{
+
+  "name": "UUID Generator",
+  "description": "UUIDv4 Generator",
+  "manifest_version": 2,
+  "version": "1.0",
+  "homepage_url": "https://aligokmen.com",
+  "icons": {
+    "32": "icons/world.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/world.png",
+    "theme_icons": [{
+      "light": "icons/world.png",
+      "dark": "icons/world.png",
+      "size": 32
+    }],
+    "default_title": "UUID Generator",
+    "default_popup": "popup/popup.html"
+  }
+
+}
